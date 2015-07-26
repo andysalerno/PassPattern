@@ -52,9 +52,6 @@ def parse_args():
 
 def main():
     parsed_args = parse_args()
-    if len(sys.argv) < 4:
-        print('usage: ' + sys.argv[0] + ' source output encoding')
-        quit()
 
     key = parsed_args.key
     hashed = parsed_args.hash
